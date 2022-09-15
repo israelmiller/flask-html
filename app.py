@@ -8,7 +8,7 @@ def default_home():
 
 @app.route('/patients')
 def patients():
-    return render_template('patients_page.html')
+    return render_template('patient_page.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
